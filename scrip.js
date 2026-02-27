@@ -12,4 +12,5 @@ function autoSlide() {
     slider.style.transform = `translateX(-${currentSlide * 100}%)`;
 }
 
-setInterval(autoSlide, 3000);
+
+setInterval(autoSlide, 1000);
